@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<title>Gawain Keer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC" rel="stylesheet">
+<style>
+body {
+background-color: #3C3744; 
+height: 100vh;
+margin-left: 0px;
+margin-top: 15px;
+cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
+}
+
+.pasek {
+width: 240px;
+height: 100%;
+background-color: #5E5B62;
+border-right-style: solid;
+border-color: #000;
+box-shadow: 5px 10px 10px #000;
+}
+
+.menu {
+width: 240px;
+}
+
+.menu a {
+font-family: 'IM Fell Great Primer SC', serif;
+background-color: #5E5B62;
+color: #8F8C93; 
+display: block; 
+padding: 25px; 
+transition: 0.3s;
+text-decoration: none;
+font-size: 20px
+cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
+text-shadow: 1px 1px 25px #000000;
+}
+
+.menu a.active {
+background-color: #2B292F; 
+font-size: 25px;
+text-shadow: 0px 0px 35px #ffffff;
+}
+
+.menu a:hover {
+background-color: #444248; 
+font-size: 25px;
+}
+
+
+#top, #bottom, #left, #right{
+background: #000000;
+position: fixed;
+}
+
+#left, #right {
+top: 0px;
+bottom: 0px;
+width: 15px;
+
+}
+#left {
+left: 0px;
+box-shadow: 10px 10px 13px #000;
+}
+#right {
+right: 0px;
+box-shadow: -10px 10px 13px #000;
+}
+#top, #bottom {
+left: 0px;
+right: 0px;
+height: 15px;
+}
+#top {
+top: 0px;
+box-shadow: -10px 10px 13px #000;
+width: 100%;
+}
+#bottom {
+bottom: 0px;
+box-shadow: -10px -10px 13px #000;
+}
+</style>
+</head>
+<body>
+<div id="top"></div>
+<div id="right"></div>
+<div id="bottom"></div>
+<div class="pasek">
+<div class="menu">
+  <a href="bio.html" class="active">BIO</a>
+  <a href="ciekawostki.html">CIEKAWOSTKI</a>
+  <a href="relacje.html">RELACJE</a>
+  <a href="galeria.html">GALERIA</a>
+  <a href="#">FORUM</a>
+</div>
+</div>
+
+</body>
+</html>
