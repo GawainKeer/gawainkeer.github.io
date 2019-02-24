@@ -1,20 +1,23 @@
 <!doctype html>
 <html>
-<script>
-function PlaySound() {
-    alert("hello");
-  var bflat = new audio();
-  bflat.src = "bflat.mp3";
-  document.getElementById(bflat);
-  bflat.Play();
-}
-</script>
+<script language="javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+        var transh     = $('.button');
+            var transaudio = transh.find('audio')[0];
+
+        transh.hover(function(){
+           transaudio.play();
+        }, function(){
+           transaudio.stop();
+        });
+    });
+   </script>
 <head>
 <title>Under setting moon</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC" rel="stylesheet">
 </head>
-
 <style>
 body {
 background-color: #3C3744; 
@@ -24,21 +27,26 @@ margin-top: 0px;
 cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
 }
 
-
-.enter-button {
+.button {
+background-image: url(https://i.imgur.com/mRqqHjb.png);
+background-color: transparent;
+color: transparent;
 position: absolute;
 top: 50%;
 left: 50%;
 width: 460px;
-height: 460px;
+height: 474px;
 margin-left: -230px;
-margin-top: -230px;
+margin-top: -237px;
+border: none;
+border-radius: 50%;
+outline: none;
+cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
 }
 
 #top, #bottom, #left, #right{
 background: #000000;
 position: fixed;
-cursor: url(https://i.imgur.com/KDFvXUZ.png);
 }
 #left, #right {
 top: 0px;
@@ -69,15 +77,13 @@ box-shadow: 10px -10px 13px #000;
 }
 
 </style>
-<map name="mapenter">
-<area shape="circle" coords="230,230,230" href="bio.html" style="cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;")/>
-</map>
 <body>
-
 <div id="top"></div>
 <div id="left"></div>
 <div id="right"></div>
-<img class="enter-button" src="https://i.imgur.com/mRqqHjb.png" alt="Enter" usemap="#mapenter" onclick="PlaySound()"/>
+<div class="button"><a class="button" href="bio.html"></a>
+<audio src="trans.mp3"></audio>
+</div>
 <div id="bottom"></div>
 </body>
 </html>
