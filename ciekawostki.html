@@ -3,122 +3,105 @@
 <head>
 <title>Gawain Keer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
 <style>
 body {
-font-family: 'IM Fell Great Primer SC', serif;
+font-family: 'Cutive Mono', monospace;
 color: #8F8C93;
-background-image: linear-gradient(-25deg, #3C3744 0%, #585877 100%);
+background-color: #000000;
 height: 100vh;
-margin-left: 0px;
 width: 100%;
-margin-top: 15px;
-cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
+margin-left: 0px;
 }
-.columnmain{
- padding-top: 1px;
- margin-left: 14%;
- width: 84%;
-}
-.column-right{}
 .menu {
 z-index: 1;
-position: fixed;
-width: 240px;
-height: 100%;
-padding: 0px;
-background-color: #5E5B62;
+position: sticky;
+top: 0px;
+width: 100%;
+height: 56px;
+background-color: #363636;
 border-right-style: solid;
 border-color: #000;
 box-shadow: 5px 10px 10px #000;
 }
 .menu a {
-background-color: #5E5B62;
+float: left;
 color: #8F8C93;
 display: block;
 padding: 16px; 
-transition: 0.3s;
+transition: 0.2s;
 text-decoration: none;
 font-size: 20px;
-cursor: url(https://i.imgur.com/KDFvXUZ.png), auto;
 text-shadow: 1px 1px 25px #000000;
+height: 24px;
+width: 200px;
 }
 .menu a.active {
-background-color: #2B292F;
-font-size: 25px;
+background-color: #000000;
+font-size: 22px;
 text-shadow: 0px 0px 35px #ffffff;
 }
 .menu a:hover {
-background-color: #444248; 
+background-color: #242424; 
 font-size: 25px;
-}
-#top, #bottom, #left, #right {
-z-index: 2;
-background: #000000;
-position: fixed;
-}
-#left, #right {
-top: 0px;
-bottom: 0px;
-width: 15px;
-}
-#left {
-left: 0px;
-box-shadow: 10px 10px 13px #000;
-}
-#right {
-right: 0px;
-box-shadow: -10px 10px 13px #000;
-}
-#top, #bottom {
-left: 0px;
-right: 0px;
-height: 15px;
-}
-#top {
-top: 0px;
-box-shadow: -10px 10px 13px #000;
-width: 100%;
-}
-#bottom {
-bottom: 0px;
-box-shadow: -10px -10px 13px #000;
 }
 ol, ul {
 list-style-type: none;
 padding: 0px;
 }
-ul {
-text-indent: 20px;
+.columnmain{
+padding-top: 1px;
+margin-left:290px;
+width:75%;
+
+}
+.profile-pic{
+height:450px;
+width:250px;
+background-color: #000000;
+padding: 10px;
+margin-right: 20px;
+float: left;
 }
 </style>
 </head>
 <body>
-<div id="bottom"></div>
-<div id="top"></div>
-<div id="right"></div>
 <div class="menu">
-<ol>
-<li><a href="bio.html">BIO</a>
-</li>
 <ul>
-<li><a>1</a></li>
-<li><a>1</a></li>
-<li><a>1</a></li>
+<li><a href="bio.html">BIO</a></li>
+<li><a href="ciekawostki.html" class="active">CIEKAWOSTKI</a></li>
+<li><a href="relacje.html">RELACJE</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+<li><a href="http://spectrofobia.forumpolish.com">FORUM</a></li>
 </ul>
-<li><a href="ciekawostki.html" class="active">CIEKAWOSTKI</a>
-</li>
-<li><a href="relacje.html">RELACJE</a>
-</li>
-<li><a href="galeria.html">GALERIA</a>
-</li>
-<li><a href="#">FORUM</a></li>
-</ol>
 </div>
-<div class="columnmain">
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
-</p>
+<div class="profile-pic">
+<img src="https://i.imgur.com/usRHiZ8.jpg"/>
+</div>
+
+<div class="columnmain" style="margin-top: 1em">
+<strong><p>- W piciu nie dorównuje większości męskiej populacji. Zwykle upija się pięcioma kielonami, większa ilość to pewne padnięcie pod stół i kac.</p>
+<p>- Potrafi opatrywać rany w podstawowym zakresie. Nie jest mistrzem igły, skalpel trzymał dwa razy, ale potrafi zabezpieczyć biedaka lub biedaczkę do czasu dotarcia do lekarza.</p>
+<p>- Cierpi na koprofobię, choć tyczy się to jego własnych odchodów. Nienawidzi być zmuszany do spożywania posiłków. Jest to źródłem dużego stresu, gdyż myśli wtedy o tym, jaki będzie brudny. Równowagę odzyskuje po odpowiednich zabiegach higienicznych.</p>
+<p>- Nie znosi wszelkiego mlaskania, głośnego żucia i ostentacyjnego żłopania. Zwierzętom odpuszcza wszelkie winy.</p>
+<p>- Nie rozumie sztuki kulinarnej, gdyż nie odczuwa apetytu na normalne jedzenie. Do zdecydowanej większości potraw nie potrafi się ustosunkować. Szybciej określi posiłek w skali jadalny-niejadalny niż obrzydliwy-niesmaczny-dobry-wyśmienity. Ocenie poddaje jedynie dobór składników, smaków i konsystencję, ale nie składa tych elementów w całość.</p>
+<p>- Z napojami się polubił. Jeśli nie zdążył wypić swej porannej kawy, bez kija nie podchodź. Śliwkowa nalewka i whisky to jego ulubione alkohole. Czasem nastawia własne nalewki, gdy zostaje mu czysty alkohol po produkcji ziołowych specyfików.</p>
+<p>- Ze snów najbardziej upodobał sobie koszmary, a gdy się przeje dostaje migreny. Podobnie dzieje się, gdy wchłonie nieodpowiedni dla siebie sen.</p>
+<p>- Nie okazuje zbyt wielu emocji przy nieznajomych, choć wie, że ci i tak mają problem z ich odczytaniem przez jego czarne twardówki.</p>
+<p>- Nie lubi ślimaków. Są obślizgłe, glutowate i pękają jak się je nadepnie. Fuj.</p>
+<p>- Trochę wstydzi się swoich blizn. Każdą uważa za porażkę i nauczkę.</p>
+<p>- Jest dobrym pływakiem i nie ma stylu, którego by nie opanował. Podczas relaksu pływa kraulem lub grzbietowym, na treningach stylem klasycznym i motylkowym.</p>
+<p>- Lubi zapach świeżo skoszonej trawy, powietrza po burzy i mięty.</p>
+<br>
+<div style="text-align:center; line-height:2px">
+<p>♪♪ Słucha głównie stoner rocka/sludge metalu ♪♪</p>
+<p>Ulubione zespoły:</p>
+<p>Somali Yacht Club</p>
+<p>Electric Wizard</p>
+<p>Sleepy Sun</p>
+</div>
+</strong>
 </div>
 </body>
 </html>
