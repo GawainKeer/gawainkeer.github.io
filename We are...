@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html>  
+<head><meta><link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Syncopate&display=swap" rel="stylesheet">   
+</meta>  
+<style>  
+body {  
+font-family: 'Cutive Mono', monospace;   
+font-family: 'Syncopate', sans-serif;   
+background: black;  
+color: white;  
+text-align: center;  
+}  
+</style>  
+</head>  
+<body>  
+<div><p>Avoi<span style="color: red;">d</span>ing the light <br>   
+Welcoming the night</p>  
+<br>  
+<p style="font-family: 'Cutive Mono', monospace;">< Data encryption detected <br>  
+< Initial input scheme set to 1-26 <br>  
+<br>  
+20 18 1 14 19 16 1 18 5 14 20</p>  
+<p style="font-size: 30px;">_ _ _ _ _ _ _ _ _ _ _.html</p>  
+</div>  
+</body>  
+</html> 
