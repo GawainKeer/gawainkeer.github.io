@@ -1,0 +1,49 @@
+.main_b {
+background: #737373;
+width:600px;
+text-align:center; 
+border:1px solid orange;
+}
+.main_h {
+      width: 594px;
+      height: 20px;
+      position: relative;
+      background: black;
+font-family: IM Fell Great Primer SC, serif;
+ font-size: 14px;
+ color: #ff8c1a;
+ background-image: none;
+ margin: 0px
+    }
+    .main_h:after {
+      content: "";
+      position: absolute;
+      left: -10px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-right: 10px solid black;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+padding: 5px;
+    }
+    .main_h:before {
+      content: "";
+      position: absolute;
+      right: -10px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 10px solid black;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+padding: 5px;
+}
+
+.lesser_h {
+font-family: IM Fell Great Primer SC, serif;
+ font-size: 14px;
+ color: #ffcc66;
+ background-image: none;
+ margin-bottom: 0px;
+}
