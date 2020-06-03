@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head><meta><link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Syncopate&display=swap" rel="stylesheet">  
+</meta> 
+
+<style> 
+
+body { 
+
+font-family: 'Cutive Mono', monospace;  
+
+font-family: 'Syncopate', sans-serif;  
+
+background: white; 
+
+color: black; 
+
+text-align: center; 
+
+} 
+
+</style> 
+<title>SWITCH</title>
+</head> 
+
+<body> 
+
+<p style="font-family: 'Cutive Mono', monospace;"> 
+
+I can't sleep. Not when light in the laboratory is on...<br> 
+
+ > _ _ _   </p> 
+
+</body> 
+
+</html> 
