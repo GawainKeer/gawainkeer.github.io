@@ -2,22 +2,11 @@
 <html>  
 
 <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Syncopate&display=swap" rel="stylesheet">
-<head> <title>CLASSIFIED</title> 
-<script src="script.js" type="text/javascript">$(document).ready(function() {
-  setTimeout(function() {
-    $("#proceed").show();
-  }, 5000);
-});</script>
-
-</head>
+<head> <title>CLASSIFIED</title> </head>
 <style>
 html {
  height: 100%;
 }
-
-#proceed {
-  display: none;}
-
 body {
   box-sizing: border-box;
   height: 500px;
@@ -111,21 +100,40 @@ body {
   color: white;
 
 }
+#showMe1 {
+  animation: cssAnimation 0s 1s forwards;
+  visibility: hidden;
+}
+#showMe2 {
+  animation: cssAnimation 0s 2s forwards;
+  visibility: hidden;
+}
+#showMe3 {
+  animation: cssAnimation 0s 3s forwards;
+  visibility: hidden;
+}
+#showMe4 {
+  animation: cssAnimation 0s 4s forwards;
+  visibility: hidden;
+}
+#showMe5 {
+  animation: cssAnimation 0s 6s forwards;
+  visibility: hidden;
+}
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
 </style>
 <body>
 <div class="noise"></div>
 <div class="overlay"></div>
 <div class="terminal">
   <h1>Access denied <span class="errorcode">TF400813</span></h1>
-  <p class="output">Resource not available for anonymous access. </p>
-  <p class="output">Authentication required.</p>
-<p class="output"></p>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
-</script>
-<p class="output"> Requesting... </p>
-<p class="output" id="proceed">0100011101001011.html</p>
-
-
+  <p class="output" id="showMe1"> Resource not available for anonymous access. </p>
+  <p class="output" id="showMe2"> Authentication required.</p>
+<p class="output" id="showMe3"></p>
+<p class="output"id="showMe4"> Requesting...   </p>
+<p class="output"id="showMe5"> 0100011101001011.html  </p>
 </div>
 </body>
 </html>
