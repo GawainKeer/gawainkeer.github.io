@@ -117,23 +117,38 @@ body {
   visibility: hidden;
 }
 #showMe5 {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
+}
+
+#showMe6 {
   animation: cssAnimation 0s 6s forwards;
+  visibility: hidden;
+
+}
+#showMe7 {
+  animation: cssAnimation 0s 7s forwards;
+  visibility: hidden;
+
+}
+#showMe8 {
+  animation: cssAnimation 0s 9s forwards;
   visibility: hidden;
 }
 @keyframes cssAnimation {
   to   { visibility: visible; }
-}
+}  
 </style>
 <body>
 <div class="noise"></div>
 <div class="overlay"></div>
 <div class="terminal">
   <h1>Access denied <span class="errorcode">TF400813</span></h1>
-  <p class="output" id="showMe1"> Resource not available for anonymous access. </p>
-  <p class="output" id="showMe2"> Authentication required.</p>
+  <p class="output" id="showMe1"> Resource not available for anonymous access </p>
+  <p class="output" id="showMe2"> Authentication required</p>
 <p class="output" id="showMe3"></p>
-<p class="output"id="showMe4"> Requesting...   </p>
-<p class="output"id="showMe5"> 0100011101001011.html  </p>
+<p class="output"id="showMe4"> Requesting <span id="showMe5">.</span><span id="showMe6">.</span><span id="showMe7">.</span></p>
+<p class="output"id="showMe8"> 0100011101001011.html </p>
 </div>
 </body>
 </html>
