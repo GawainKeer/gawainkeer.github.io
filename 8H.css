@@ -1,3 +1,5 @@
+
+<style>
 .sep {
 width:526px;
   height:auto;
@@ -7,7 +9,9 @@ border-radius:0px 0px 1010px 1010px;
 position: relative;
 left:12px;
 font-size:24px;
-text-align:center;}
+text-align:center;
+padding:1px;
+}
 
 .sep2 {
 width:526px;
@@ -18,7 +22,8 @@ position: relative;
 left:12px;
 font-size:16px;
 text-align:center;
-padding:2px;}
+padding:2px;
+}
 
 .cont {
 width:507px;
@@ -28,20 +33,10 @@ left:12px;
 position:relative;
 margin-top:15px;
 overflow:auto;
-padding: 0px 10px 0px 10px;
+padding: 0px 10px 2px 10px;
 font-size:13px; 
 }
-.cont2 {
-  width:507px;
-height:auto;
-color:#775d71;
-left:12px;
-position:relative;
-margin-top:15px;
-overflow:auto;
-padding: 10px;
-font-size:10px; 
-}
+
 .center {
   display: block;
   margin-left: 180px;
