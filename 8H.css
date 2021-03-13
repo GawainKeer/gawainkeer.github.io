@@ -1,0 +1,26 @@
+.sep {
+width:526px;
+color:black;
+background-color:#ddb966;
+border-radius:0px 0px 1010px 1010px;
+position: relative;
+left:12px;
+font-size:24px;
+text-align:center;}
+.cont {
+width:507px;
+height:auto;
+color:#775d71;
+left:12px;
+position:relative;
+margin-top:15px;
+overflow:auto;
+padding: 10px;
+font-size:13px; 
+}
+.center {
+  display: block;
+  margin-left: 180px;
+  width: 30%;
+margin-bottom:-42px;
+}
