@@ -8,6 +8,16 @@ left:12px;
 font-size:24px;
 text-align:center;}
 
+.sep2 {
+width:526px;
+color:black;
+background-color:#ddb966;
+border-radius:0px 0px 1010px 1010px;
+position: relative;
+left:12px;
+font-size:16px;
+text-align:center;}
+
 .cont {
 width:507px;
 height:auto;
