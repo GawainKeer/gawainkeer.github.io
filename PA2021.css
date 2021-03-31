@@ -8,4 +8,5 @@ body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 3vw;
-	font-family: 'Barriecito', cursive;}
+	font-family: 'Barriecito', cursive;
+border-bottom:none;}
