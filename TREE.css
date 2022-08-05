@@ -1,0 +1,122 @@
+<link rel="stylesheet" href="https://dl.dropbox.com/s/w95vw06ntjw4waz/soliloquyrm.css">
+.lTBAyL22A{
+width:90px;
+height: 90px;
+transform: scale(0);
+transition: 1s;
+}
+
+.lTBAyL221{
+height:400px; width:500px;
+padding:20px;
+overflow-y: scroll;
+background: black;
+display: flex;
+ align-items: center;
+
+}
+.lTBAyL{
+height:440px; width:540px;
+opacity: 0.1;
+transform: scale(0);
+transition: 1s;position: relative;
+    z-index: 1;right:250px;
+bottom:300px;}
+
+a:hover .lTBAyL{
+padding:2px;
+border: 1px solid var(--AyL1);
+transform: scale(1);
+transition: 1s;
+opacity: 1.0;
+position: relative;
+    z-index: 1;
+right:250px;
+bottom:300px;
+}
+.lTBAyL div::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+background: var(--AyL4);
+border: 2px solid var(--AyL1);
+}
+.lTBAyL div::-webkit-scrollbar-thumb {
+background: var(--AyL4);
+border: 0px solid var(--AyL1);
+}
+
+.lTBAyL bb{
+font-family: 'Roboto';
+color:var(--AyL4);
+font-size:11px;
+font-weight: 700;
+}
+.lTBAyL tit{
+font-family: 'Roboto';
+color:var(--AyL4);
+font-size:13px;
+text-transform: uppercase;
+line-height: 110%;
+font-weight: 700;
+}
+.lTBAyL a{
+color:var(--AyL4);
+font-weight: 700;
+}
+.lTBAyL{--AyL1: #000;--AyL2: #fff;--AyL3: #e2c3a7;--AyL4: #b35d57;}
+
+* {margin: 0; padding: 0;}
+
+ a{
+flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 10px;
+	z-index:-1;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+ align-items: center;
+text-align: center;
+background-color:white;
+display: inline-block;
+vertical-align: text-bottom;}
+
+.female {background: linear-gradient(to top, #7d2335, #4a0469); 
+padding: 5px;
+border-radius: 50%; 
+border: solid 1px black;
+}
+
+.male{background: linear-gradient(to top, #2e4573, #4a0469); 
+padding: 5px;
+border-radius: 50%;}
+
+p{margin:10px;
+background: black;
+border: solid 1px #E58D30;
+text-align: center;
+font-family: 'Roboto';
+color:#b35d57;
+font-size:12px;
+font-weight: 700;
+  }
+
+th, td, tr{  
+border: solid 0px #fff; }
+body{border-spacing: 30px; background-image: url("https://i.imgur.com/skEdiHd.png");
+ background-repeat: no-repeat;}  
+
+table {
+padding-top:250px;
+padding-right:250px;
+padding-left:250px;
+padding-bottom:300px;
+table-layout:fixed;
+}
+
+tr:nth-child(even) {text-align:center;
+}
