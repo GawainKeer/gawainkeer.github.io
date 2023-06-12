@@ -1,0 +1,137 @@
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Cardo" rel="stylesheet">
+<style>
+ 
+ #container{
+ width: 362px;
+ height: 362px;
+padding:55 0 0 55;
+background-color:red;
+transition: all 1.5s ease;
+transition-delay: 0.0s;
+ }
+
+ #container:hover {
+transform: rotateZ(45deg);
+}
+
+#Diamond_back {
+position:absolute;
+      width: 300px;
+      height: 300px;
+background-image: url(https://i.imgur.com/tCwgVua.png);
+transform: rotateZ(45deg);
+z-index:2;
+ }
+
+#textbox {
+color: black;
+width: 362px;
+height: 362px;
+transform: rotateZ(-45deg);
+background-color: rgba(169,169,169,0.78);
+ box-shadow: 0px 0px 10px #C0C0C0;
+ font-family: cardo;
+ font-size: 15px;
+ line-height: 18px;
+ text-align: justify;
+padding: 0 0 0 0;
+ overflow-y: auto;
+ opacity: 1;
+ -webkit-transition-duration: 1s;
+ -moz-transition-duration: 1s;
+ -ms-transition-duration: 1s; 
+-o-transition-duration: 1s;}
+#text_t1{
+color:gold;
+font-family: cardo;
+ font-size: 15px;
+ line-height: 18px;
+ text-align: justify;
+transform: rotateZ(45deg);
+top:100px;
+left:5px;
+position:absolute;
+background-color:green; 
+width:145px; 
+height:65px; 
+overflow:hidden;
+transition: all 1.5s ease;
+transition-delay: 0.0s;
+}
+ #container:hover #text_t1 {
+opacity:0;
+}
+
+
+#text_t4{
+color:gold;
+font-family: cardo;
+ font-size: 15px;
+ line-height: 18px;
+ text-align: justify;
+transform: rotateZ(-45deg);
+top:100px;
+left:-150px;
+position:absolute;
+background-color:green; 
+width:145px; 
+height:65px; overflow:hidden;
+}
+
+ #trian1{
+      border-bottom: 212px solid black;
+      border-right: 212px solid transparent;
+margin-left:150px;
+margin-top:-62px;
+
+transition-delay: 0.1s;
+border-image: url(https://i.imgur.com/6LZe88P.png);
+}
+
+ #container:hover #trian1 {
+transform: rotate3d(1,1,0, 180deg);
+}
+
+#trian2{
+      border-top: 212px solid yellow;
+      border-right: 212px solid transparent;
+margin-left:150px;
+border-image: url(https://i.imgur.com/vIkv5oE.png);
+margin-top:150px;
+transition-delay: 0.3s;
+}
+
+ #container:hover #trian2{
+transform: rotate3d(1,-1,0, 180deg);
+}
+ #trian1,#trian2,#trian3,#trian4 {
+
+position:absolute;
+z-index:3;
+transition: all 1.5s ease;}
+
+#trian3{
+border-bottom: 212px solid blue;
+border-left: 212px solid transparent; 
+border-image: url(https://i.imgur.com/to4Emy7.png);
+margin-left:-62px;
+margin-top:150px;
+transition-delay: 0.5s;
+}
+
+ #container:hover #trian3{
+transform: rotate3d(1,1,0, 180deg);
+}
+
+#trian4{
+      border-bottom: 212px solid magenta;
+      border-left: 212px solid transparent;
+border-image: url(https://i.imgur.com/DuWx1Xe.png);
+margin-left:-62px;
+margin-top:-62px;
+transition-delay: 0.7s;
+} 
+ #container:hover #trian4{
+transform: rotate3d(-1,1,0, 180deg);
+}
+</style>
