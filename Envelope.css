@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Cardo" rel="stylesheet">
 <style>
  
- #container{
+ #ENContainer{
  width: 362px;
  height: 362px;
 padding:55 0 0 55;
@@ -10,7 +10,7 @@ transition: all 1.5s ease;
 transition-delay: 0.0s;
  }
 
- #container:hover {
+ #ENContainer:hover {
 transform: rotateZ(45deg);
 }
 
@@ -58,7 +58,7 @@ overflow:hidden;
 transition: all 1.5s ease;
 transition-delay: 0.0s;
 }
- #container:hover #text_t1 {
+ #ENContainer:hover #text_t1 {
 opacity:0;
 }
 
@@ -88,7 +88,7 @@ transition-delay: 0.1s;
 border-image: url(https://i.imgur.com/6LZe88P.png);
 }
 
- #container:hover #trian1 {
+ #ENContainer:hover #trian1 {
 transform: rotate3d(1,1,0, 180deg);
 }
 
@@ -101,7 +101,7 @@ margin-top:150px;
 transition-delay: 0.3s;
 }
 
- #container:hover #trian2{
+ #ENContainer:hover #trian2{
 transform: rotate3d(1,-1,0, 180deg);
 }
  #trian1,#trian2,#trian3,#trian4 {
@@ -119,7 +119,7 @@ margin-top:150px;
 transition-delay: 0.5s;
 }
 
- #container:hover #trian3{
+ #ENContainer:hover #trian3{
 transform: rotate3d(1,1,0, 180deg);
 }
 
@@ -131,7 +131,7 @@ margin-left:-62px;
 margin-top:-62px;
 transition-delay: 0.7s;
 } 
- #container:hover #trian4{
+ #ENContainer:hover #trian4{
 transform: rotate3d(-1,1,0, 180deg);
 }
 </style>
